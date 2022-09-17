@@ -12,7 +12,7 @@
 }
 
 .mouse-position-tracker {
-    //z-index: 2;
+    z-index: 2;
     position: absolute;
     width: calc(100% / 3);
     height: calc(100% / 3);
