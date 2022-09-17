@@ -1,0 +1,19 @@
+{
+  "name": "atov",
+  "author": "Vincent J. JACQUET",
+  "description": "A Taste Of Vanilla",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --base=./wwwroot",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "postcss-easings": "3.x",
+    "postcss-preset-env": "6.7.x",
+    "vite": "2.x  || >2.0.0-alpha"
+  }
+}
