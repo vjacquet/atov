@@ -6,7 +6,11 @@ Based on Kevin Powell's [Create a tilting card on hover with CSS only](https://w
 Eventhough the plain CSS approach  explained by Kevin is nice, I am not found of adding markup solely for CSS tricks. So I attempted to hide
 the generation of the `<div>`s in a web component.
 
-One of the issue with the plain CSS approach is that the grid is over the panel and prevent interaction. The "mostly js" variant is a fix for this issue.
+There are two issues with the plain CSS approch:  
+1. the grid is over the panel and prevent interaction. 
+2. the `tilting-card` styles are to be defined for both `tilting-card:not(:defined)` and `tilting-card::part(body)`
+
+The "mostly js" variant fixes both issues, and creates a simpler DOM.
 
 > **Note**  
 > Investigate upgrading the grid for a smoother experience.

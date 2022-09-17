@@ -9,3 +9,9 @@ The `algorithms` and `animations` can be extended.
 
 > **Note**  
 > Investigate using [Intl.Segmenter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter) to change the implementation of the algorithms.
+
+More
+----
+
+- [3D text animations with CSS](https://www.youtube.com/watch?v=NSWr6dkc_Xw)
+
