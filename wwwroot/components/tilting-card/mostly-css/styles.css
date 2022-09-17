@@ -1,0 +1,29 @@
+﻿:root {
+    --shadow: 0px 1px 2.2px rgba(0, 0, 0, 0.02), 0px 2.5px 5.3px rgba(0, 0, 0, 0.028), 0px 4.6px 10px rgba(0, 0, 0, 0.035), 0px 8.3px 17.9px rgba(0, 0, 0, 0.042), 0px 15.5px 33.4px rgba(0, 0, 0, 0.05), 0px 37px 80px rgba(0, 0, 0, 0.07);
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+tilting-card:not(:defined), tilting-card::part(body) {
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1528321917418-af00f8823ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MjY1Mzg&ixlib=rb-1.2.1&q=80&w=800");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+    box-shadow: var(--shadow);
+}
+
+tilting-card:defined {
+    --tilting-perspective: 1000px;
+    --tilting-angle: 15deg;
+}
